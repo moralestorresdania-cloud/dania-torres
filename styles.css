@@ -1,0 +1,122 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:cadetblue;
+    color:black;
+}
+header{
+    text-align: center;
+    background-color:beige;
+    color:#000000;
+    padding:20px 0;
+    font-size:40px;
+    text-shadow: 2px 2px 5px;
+}
+
+nav{
+    display:flex;
+justify-content: space-between;
+    align-items:center;
+    background-color:aquamarine;
+    padding:10px;
+}
+nav ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    gap:20px;
+}
+nav ul li{
+    display:inline;/*cada elemento se muestra en una linea*/
+}
+nav ul li a{
+ text-decoration:inline ;/*quitar el subrayado*/
+ color:black;
+ font-weight:bold;/*texto en negritas*/
+ transition:color 0.3;
+}
+nav ul li a:hover {
+    color:#000000; /*cambie de color al pasar el cursor*/
+}
+nav form{
+    display:flex;
+    gap:5 px;
+}
+nav input[type="search"]{
+    padding:5px;
+    border:none;/*borde none es sin bordes*/
+    border-radius:5px;/*borde redondeado*/
+}
+nav input[type="sumbit"]{
+background-color:aquamarine;
+color:bisque;
+border-radius:5px;
+padding:5px 10px;
+cursor:pointer;/*cambiar curso al pasar*/
+}
+nav input[type="submit"]:hover{
+background-color: #000000;
+}
+
+main{
+    display: flex;
+    margin: 25px;
+    gap: 25px;
+
+}
+main article p{
+    text-align: center;
+    font-size: 26px;
+}
+
+article{
+    flex:4;
+    background-color: lightblue;
+    padding: 25px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+article h2{
+    text-align: center;
+    font-size: 25px;
+    color:black;
+}
+article h3{
+    color:mediumturquoise;
+    margin-top: 20px;
+}
+aside{
+    flex:1;
+    background-color:bisque;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+aside h2{
+    color:#000000
+}
+aside ul{
+    list-style: disc;
+    padding-left: 20px;
+
+}
+aside ul li a{
+    text-decoration: none;
+    color:#000000;
+
+}
+aside ul li a:hover{
+    color:bisque;
+}
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: beige;
+    color:bisque;
+    text-align: center;
+    padding: 20px;
+    margin-top:20px;
+}
+
+
