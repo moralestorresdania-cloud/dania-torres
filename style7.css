@@ -1,0 +1,64 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+/* Fondo */
+body {
+  background-color: #e9eef5; /* gris claro */
+  color: #1e2a38; /* gris oscuro */
+  font-size: 22px;
+  text-align: center;
+  padding: 25px;
+}
+
+/* Título */
+h1 {
+  font-size: 40px;
+  color: #004a9c; /* azul fuerte institucional */
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.15);
+}
+
+/* Lista centrada */
+ol {
+  display: inline-block;
+  text-align: left;
+  margin: 20px auto;
+  padding: 15px 30px;
+  background: #ffffff;
+  border: 3px solid #8faecc; /* gris-azulado */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Estilo de imágenes */
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 25px;
+}
+
+/* Marcos en fotos */
+.gallery img {
+  width: 330px;
+  height: 200px;
+  object-fit: cover;
+  border: 6px solid #004a9c; /* marco azul */
+  border-radius: 12px;
+  background-color: #cfd7e3; /* gris claro */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: 0.3s ease;
+}
+
+/* Hover animación */
+.gallery img:hover {
+  transform: scale(1.05);
+  border-color: #5ea8ff;
+}

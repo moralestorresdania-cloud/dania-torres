@@ -1,0 +1,25 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Fondo y texto */
+body {
+  background-color: #eef2f7; /* gris claro */
+  color: #1f2d3d; /* gris oscuro */
+  font-size: 20px;
+  padding: 25px;
+  text-align: left;
+}
+
+/* Título */
+h1 {
+  color: #0a4b8c; /* azul CETIS */
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+

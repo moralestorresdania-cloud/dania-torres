@@ -1,0 +1,79 @@
+/* ====== Variables de Color ====== */
+:root {
+  --bg: #f8fafc;               /* Fondo */
+  --card: #ffffff;             /* Tarjetas / bloques */
+  --text: #0f172a;             /* Texto principal */
+  --text-light: #6b7280;       /* Texto secundario */
+  --primary: #2563eb;          /* Azul principal */
+  --primary-hover: #1d4ed8;    /* Azul más oscuro */
+  --accent: #38bdf8;           /* Azul cielo/acento */
+  --radius: 12px;
+  --shadow: 0 6px 20px rgba(0, 0, 0, .07);
+  font-family: 'Inter', sans-serif;
+}
+
+/* ====== Estilo general ====== */
+body {
+  background: var(--bg);
+  margin: 0;
+  padding: 0;
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+}
+
+/* ====== Contenedor ====== */
+.container {
+  width: min(900px, 90%);
+  margin: auto;
+  padding: 30px 20px;
+}
+
+/* ====== Títulos ====== */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: var(--primary);
+}
+
+/* ====== Tarjeta de enlaces ====== */
+.link-box {
+  background: var(--card);
+  padding: 18px;
+  margin: 12px 0;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: transform .2s, box-shadow .2s;
+}
+
+.link-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 28px rgba(0,0,0,.10);
+}
+
+/* ====== Estilo de enlaces ====== */
+a {
+  text-decoration: none;
+  color: var(--primary);
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: color .2s;
+}
+
+a:hover {
+  color: var(--primary-hover);
+  text-decoration: underline;
+}
+
+/* ====== Texto dentro de caja ====== */
+.link-box p {
+  margin: 6px 0 0;
+  color: var(--text-light);
+  font-size: .95rem;
+}
+
+/* ====== Responsive ====== */
+@media (max-width: 600px) {
+  h1 { font-size: 1.6rem; }
+  a { font-size: 1r

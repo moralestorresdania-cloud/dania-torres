@@ -1,0 +1,29 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+/* Fondo y texto */
+body {
+  background-color: #e8edf3; /* gris claro */
+  color: #1e2a38; /* gris oscuro */
+  font-size: 22px; /* letras grandes */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Título */
+h1 {
+  color: #003c8f; /* azul fuerte */
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.15);
+}
+
+/* Lista de clubes */
+ol {
+  text-align: lef

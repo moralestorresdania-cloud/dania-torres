@@ -1,0 +1,84 @@
+/* Reset y fuentes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+/* Colores generales */
+body {
+  background-color: #e9eef5; /* gris muy claro */
+  color: #2d3640; /* gris oscuro */
+  padding: 10px;
+}
+
+/* Marco principal */
+main, header, nav, article {
+  border: 2px solid #b9c4d4; /* gris suave */
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.07);
+}
+
+/* Header */
+header {
+  text-align: center;
+  background-color: #003c8f; /* azul fuerte escolar */
+  color: white;
+  border-color: #002e6c;
+}
+
+/* Título */
+header h1 {
+  font-size: 35px;
+}
+
+/* Navegación */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #d5e6ff; /* azul pastel */
+  border-color: #88aee0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #003c8f;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  transition: .3s;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #003c8f;
+  color: #001f4d;
+}
+
+/* Buscador */
+nav input[type="search"] {
+  padding: 8px;
+  border: 2px solid #88aee0;
+  border-radius: 8px;
+}
+
+nav input[type="submit"] {
+  padding: 8px 12px;
+  background: #003c8f;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+nav input[ty]()
